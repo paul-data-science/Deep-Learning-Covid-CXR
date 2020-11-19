@@ -1,4 +1,4 @@
-# Deep Learning Covid Chest X-rays
+# Deep Learning Explainability of How Model Detected Anomalies on Covid Chest X-rays
 NJIT CS677 Deep Learning Project Explainability of Covid Chest Xrays
 
 They give you [the COVID X-ray / CT Imaging dataset](https://github.com/ieee8023/covid-chestxray-dataset) and:
