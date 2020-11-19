@@ -1,11 +1,12 @@
-# Deep-Learning-Covid-CXR
+# Deep Learning Covid Chest X-rays
 NJIT CS677 Deep Learning Project Explainability of Covid Chest Xrays
 
 They give you [the COVID X-ray / CT Imaging dataset](https://github.com/ieee8023/covid-chestxray-dataset) and:
 
 1. First you find this [this implementation](https://github.com/aildnont/covid-cxr) of the method called Local Interpretable Model-Agnostic Explanations (i.e. LIME). You also read [this article](https://towardsdatascience.com/investigation-of-explainable-predictions-of-covid-19-infection-from-chest-x-rays-with-machine-cb370f46af1d) and you get your hands dirty and replicate the results in your colab notebook with GPU enabled kernel:
     - For this Part 1 task please refer to the following Jupyter Notebook files:
-    </br>**_All Image outputs are presented on their respective Jupyter Notebook files. Please scroll down all the way to the bottom to see the images._**
+    </br>**_*All Image outputs are presented on their respective Jupyter Notebook files. Please scroll down all the way to the bottom to see the images._**
+    </br>**_*We used DCNN RESNET model as specified from the original model.py file [https://github.com/aildnont/covid-cxr/blob/master/src/models/models.py](https://github.com/aildnont/covid-cxr/blob/master/src/models/models.py)_**
         - [https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/gradcam.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/gradcam.ipynb)
         - [https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/lime\_explain.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/lime_explain.ipynb)
         - [https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/predict-Kaggle-Fig1-Covid-Images.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/predict-Kaggle-Fig1-Covid-Images.ipynb)
@@ -37,7 +38,7 @@ They give you [the COVID X-ray / CT Imaging dataset](https://github.com/ieee8023
 3. After your presentation, your manager is clearly impressed with the depth of the SHAP approach and asks for some results for explaining the COVID-19 diagnoses via it. You notice that the extremely popular [SHAP Github repo](https://github.com/slundberg/shap) already has an example with VGG16 network applied to ImageNet. You think it wont be too difficult to plugin the model you trained in (1) and explain it:
 
     - For this Part3 task our best performing saved model with random oversampling was used to run SHAP Gradient Explainer demo. </br>Please refer to [https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/PaulAg-GradientExplainer-Covid-Example-model20201109-115150-h5-Pred-Set.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/PaulAg-GradientExplainer-Covid-Example-model20201109-115150-h5-Pred-Set.ipynb)
-    </br>**_All Image outputs are presented on their respective Jupyter Notebook files. Please scroll down all the way to the bottom to see the images._**
+    </br>**_*All Image outputs are presented on their respective Jupyter Notebook files. Please scroll down all the way to the bottom to see the images._**
 
     - Packages pip installed on Windows 10 Anaconda (64bit Latest Download at the time):
       - Python==3.6.9 {reduced from version 3.8}
