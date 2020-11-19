@@ -7,6 +7,7 @@ They give you [the COVID X-ray / CT Imaging dataset](https://github.com/ieee8023
     - For this Part 1 task please refer to the following Jupyter Notebook files:
     </br>**_*All Image outputs are presented on their respective Jupyter Notebook files. Please scroll down all the way to the bottom to see the images._**
     </br>**_*We used DCNN RESNET model as specified from the original model.py file [https://github.com/aildnont/covid-cxr/blob/master/src/models/models.py](https://github.com/aildnont/covid-cxr/blob/master/src/models/models.py)_**
+    </br>**_*We finally used our best performing model for all explaination algorithms by setting IMB_STRATEGY: 'random_oversample' in config.yml_**
         - [https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/gradcam.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/gradcam.ipynb)
         - [https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/lime\_explain.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/lime_explain.ipynb)
         - [https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/predict-Kaggle-Fig1-Covid-Images.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/predict-Kaggle-Fig1-Covid-Images.ipynb)
@@ -39,6 +40,7 @@ They give you [the COVID X-ray / CT Imaging dataset](https://github.com/ieee8023
 
     - For this Part3 task our best performing saved model with random oversampling was used to run SHAP Gradient Explainer demo. </br>Please refer to [https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/PaulAg-GradientExplainer-Covid-Example-model20201109-115150-h5-Pred-Set.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/PaulAg-GradientExplainer-Covid-Example-model20201109-115150-h5-Pred-Set.ipynb)
     </br>**_*All Image outputs are presented on their respective Jupyter Notebook files. Please scroll down all the way to the bottom to see the images._**
+    </br>**_*We finally used our best saved model_**
 
     - Packages pip installed on Windows 10 Anaconda (64bit Latest Download at the time):
       - Python==3.6.9 {reduced from version 3.8}
