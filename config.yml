@@ -34,7 +34,7 @@ TRAIN:
   #CLASS_MULTIPLIER: [0.4, 1.0, 0.4]                      # Class multiplier for multiclass classification (3 classes)
   EXPERIMENT_TYPE: 'single_train'                         # One of {'single_train', 'multi_train', 'hparam_search'}
   BATCH_SIZE: 32
-  EPOCHS: 100  # 200
+  EPOCHS: 200
   THRESHOLDS: 0.5                                         # Can be changed to list of values in range [0, 1]
   PATIENCE: 20
   IMB_STRATEGY: 'random_oversample'       # One of {'class_weight', 'random_oversample'} **changed from class_weights!
@@ -50,10 +50,10 @@ NN:
     FILTER_EXP_BASE: 3
     MAXPOOL_SIZE: (2,2)
     CONV_BLOCKS: 3     # 3
-    NODES_DENSE0: 64
+    NODES_DENSE0: 128
     LR: 0.00001
     OPTIMIZER: 'adam'
-    DROPOUT: 0.2       # 0.4
+    DROPOUT: 0.4
     L2_LAMBDA: 0.0001
   DCNN_MULTICLASS:
     KERNEL_SIZE: (3,3)
