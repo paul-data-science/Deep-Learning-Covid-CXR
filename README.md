@@ -12,9 +12,9 @@ They give you [the COVID X-ray / CT Imaging dataset](https://github.com/ieee8023
         - [https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/lime\_explain.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/lime_explain.ipynb)
         - [https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/predict-Kaggle-Fig1-Covid-Images.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/predict-Kaggle-Fig1-Covid-Images.ipynb)
         - [https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/predict.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/predict.ipynb) _*NOTE: Maybe same as above 'predict-' file_
-        - **_Best performing trained model using random oversampling:_**
+        - **_Trained model using random oversampling:_**
        </br>-[https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/BEST-SCORE-train-random\_oversample-200-epochs-Mon1am-11092020.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/BEST-SCORE-train-random_oversample-200-epochs-Mon1am-11092020.ipynb)
-        - **_Worst performing trained model using class weights:_** 
+        - **_Trained model using class weights:_** 
        </br>[https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/BAD-SCORE-train-Class-Weights-200-epochs.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/BAD-SCORE-train-Class-Weights-200-epochs.ipynb)
        - https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/preprocess.ipynb
        
