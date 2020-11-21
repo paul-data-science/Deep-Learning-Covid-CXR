@@ -19,7 +19,6 @@ They give you [the COVID X-ray / CT Imaging dataset](https://github.com/ieee8023
        </br>-[https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/BEST-SCORE-train-random\_oversample-200-epochs-Mon1am-11092020.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/BEST-SCORE-train-random_oversample-200-epochs-Mon1am-11092020.ipynb)
        
         </br>**Step 3: Predictions (Used Kaggle Fig1 Covid Images for testing predictions)**
-        - [https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/predict.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/predict.ipynb) _*NOTE: Maybe same as above 'predict-' file_
         - [https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/predict-Kaggle-Fig1-Covid-Images.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/predict-Kaggle-Fig1-Covid-Images.ipynb)
         
         </br>**Step 4: Lime Explainer**
