@@ -10,12 +10,10 @@ Akash Shrivastava</br>
 They give you [the COVID X-ray / CT Imaging dataset](https://github.com/ieee8023/covid-chestxray-dataset) and:
 
 1. First you find this [this implementation](https://github.com/aildnont/covid-cxr) of the method called Local Interpretable Model-Agnostic Explanations (i.e. LIME). You also read [this article](https://towardsdatascience.com/investigation-of-explainable-predictions-of-covid-19-infection-from-chest-x-rays-with-machine-cb370f46af1d) and you get your hands dirty and replicate the results:
-    - For Part (1) task please refer to the steps listed below with their respective Jupyter Notebook files:
-    </br>**_*All Image outputs are presented on their respective Jupyter Notebook files. Please scroll down all the way to the bottom to see the images._**
-    </br>**_*We used DCNN RESNET model as specified from the original model.py file [https://github.com/aildnont/covid-cxr/blob/master/src/models/models.py](https://github.com/aildnont/covid-cxr/blob/master/src/models/models.py)_**
+    </br>**_*All Image outputs are presented on their respective Jupyter Notebook files._</br>_*Please scroll down all the way to the bottom of each file to see the images._</br>**_*We used DCNN RESNET model as specified from the [original model.py file](https://github.com/aildnont/covid-cxr/blob/master/src/models/models.py)_
+    - **For Part (1) task please refer to the steps listed below with their respective Jupyter Notebook files:**
     
-    
-        </br>**Step 1: Prepocess**
+        **Step 1: Prepocess**
         - https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/Part-1/src/preprocess.ipynb
         
         </br>**Step 2: Train (Did both Class Weights and Random Oversample)**
@@ -27,7 +25,7 @@ They give you [the COVID X-ray / CT Imaging dataset](https://github.com/ieee8023
         </br>**Step 3: Predictions (Used Kaggle Fig1 Covid Images for testing predictions)**
         </br>
         </br>**_*All Image outputs are presented on their respective Jupyter Notebook files._**
-        </br>**_*Please scroll down all the way to the bottom to see the images._**
+        </br>**_*Please scroll down all the way to the bottom of the file to see the images._**
         - [https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/Part-1/src/predict-Kaggle-Fig1-Covid-Images.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/Part-1/src/predict-Kaggle-Fig1-Covid-Images.ipynb)
         
         </br>**Step 4: Lime Explainer**
