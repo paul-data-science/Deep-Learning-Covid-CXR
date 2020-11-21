@@ -61,7 +61,7 @@ They give you [the COVID X-ray / CT Imaging dataset](https://github.com/ieee8023
 3. After your presentation, your manager is clearly impressed with the depth of the SHAP approach and asks for some results for explaining the COVID-19 diagnoses via it. You notice that the extremely popular [SHAP Github repo](https://github.com/slundberg/shap) already has an example with VGG16 network applied to ImageNet. You think it wont be too difficult to plugin the model you trained in (1) and explain it:
 
     - For Part (3) task our best performing saved model from Part (1) with random oversample was used to run SHAP Gradient Explainer demo.
-    </br>Please refer to [https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/Part-3/PaulAg-GradientExplainer-Covid-Example-model20201109-115150-h5-Pred-Set.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/PaulAg-GradientExplainer-Covid-Example-model20201109-115150-h5-Pred-Set.ipynb)
+    </br>Please refer to [https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/Part-3/PaulAg-GradientExplainer-Covid-Example-model20201109-115150-h5-Pred-Set.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/Part-3/PaulAg-GradientExplainer-Covid-Example-model20201109-115150-h5-Pred-Set.ipynb)
     
     - Important packages pip installed on Windows 10 on Anaconda (64bit Latest Download at the time):
       - Python==3.6.9 {reduced from version 3.8}
