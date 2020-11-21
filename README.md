@@ -1,5 +1,5 @@
 # Deep Learning Explainability of How Model Detected Anomalies on Covid Chest X-rays
-NJIT CS 6771J1, Deep Learning, Fall 2020</br>
+CS 6771J1, Deep Learning, Fall 2020</br>
 New Jersey Institute of Technology</br>
 Project 2 - Deep Learning Project Explainability of Covid Chest Xrays</br>
 Group 4 Participants:</br>
@@ -64,12 +64,12 @@ They give you [the COVID X-ray / CT Imaging dataset](https://github.com/ieee8023
       <br/><br/>
 
 2. A fellow AI engineer, tells you about another method called [SHAP](https://arxiv.org/abs/1705.07874) that stands for SHapley Additive exPlanations and she mentions that Shapley was a Nobel prize winner so it must be important. You then find out that [Google is using it and wrote a readable white paper](https://storage.googleapis.com/cloud-ai-whitepapers/AI%20Explainability%20Whitepaper.pdf) about it and your excitement grows. Your manager sees you on the corridor and mentions that your work is needed soon. You are keen to impress her and start writing your  **3-5 page**  summary of the SHAP approach as can be applied to explaining deep learning classifiers such as the ResNet network used in (1):
-    - **For Part (2) please refer to [https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/Part-2/Part2_SHAP_Explainability.pdf]**(https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/Part-2/Part2_SHAP_Explainability.pdf)
+    - **For Part (2) please refer to** [https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/Part-2/Part2_SHAP_Explainability.pdf](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/Part-2/Part2_SHAP_Explainability.pdf)
     
 3. After your presentation, your manager is clearly impressed with the depth of the SHAP approach and asks for some results for explaining the COVID-19 diagnoses via it. You notice that the extremely popular [SHAP Github repo](https://github.com/slundberg/shap) already has an example with VGG16 network applied to ImageNet. You think it wont be too difficult to plugin the model you trained in (1) and explain it:
 
     - **For Part (3) task our best performing saved model from Part (1) with random oversample was used to run SHAP Gradient Explainer demo.**
-    </br>**Please refer to [https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/Part-3/PaulAg-GradientExplainer-Covid-Example-model20201109-115150-h5-Pred-Set.ipynb]**(https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/Part-3/PaulAg-GradientExplainer-Covid-Example-model20201109-115150-h5-Pred-Set.ipynb)
+    </br>**Please refer to** [https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/Part-3/PaulAg-GradientExplainer-Covid-Example-model20201109-115150-h5-Pred-Set.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/Part-3/PaulAg-GradientExplainer-Covid-Example-model20201109-115150-h5-Pred-Set.ipynb)
     
     - Important packages pip installed on Windows 10 on Anaconda (64bit Latest Download at the time):
       - Python==3.6.9 {reduced from version 3.8}
