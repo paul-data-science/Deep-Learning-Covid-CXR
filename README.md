@@ -7,16 +7,16 @@ They give you [the COVID X-ray / CT Imaging dataset](https://github.com/ieee8023
     - For this Part 1 task please refer to the following Jupyter Notebook files:
     </br>**_*All Image outputs are presented on their respective Jupyter Notebook files. Please scroll down all the way to the bottom to see the images._**
     </br>**_*We used DCNN RESNET model as specified from the original model.py file [https://github.com/aildnont/covid-cxr/blob/master/src/models/models.py](https://github.com/aildnont/covid-cxr/blob/master/src/models/models.py)_**
-    </br>**_*We finally used our best performing model for all explaination algorithms by setting IMB_STRATEGY: 'random_oversample' in config.yml_**
+    
     
         </br>**Step 1: Prepocess**
         - https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/preprocess.ipynb
         
         </br>**Step 2: Train (Did both Class Weights and Random Oversample)**
-        - **_Trained model using class weights:_** 
+        - **_Trained model using class weights (Did not perform as well as random oversample):_** 
        </br>[https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/BAD-SCORE-train-Class-Weights-200-epochs.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/BAD-SCORE-train-Class-Weights-200-epochs.ipynb)
-         - **_Trained model using random oversampling:_**
-       </br>-[https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/BEST-SCORE-train-random\_oversample-200-epochs-Mon1am-11092020.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/BEST-SCORE-train-random_oversample-200-epochs-Mon1am-11092020.ipynb)
+         - **_Trained model using random oversample (Best performing model):_**
+       </br>[https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/BEST-SCORE-train-random\_oversample-200-epochs-Mon1am-11092020.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/BEST-SCORE-train-random_oversample-200-epochs-Mon1am-11092020.ipynb)
        
         </br>**Step 3: Predictions (Used Kaggle Fig1 Covid Images for testing predictions)**
         - [https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/predict-Kaggle-Fig1-Covid-Images.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/predict-Kaggle-Fig1-Covid-Images.ipynb)
