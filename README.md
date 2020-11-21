@@ -3,7 +3,7 @@ NJIT CS677 Deep Learning Project Explainability of Covid Chest Xrays
 
 They give you [the COVID X-ray / CT Imaging dataset](https://github.com/ieee8023/covid-chestxray-dataset) and:
 
-1. First you find this [this implementation](https://github.com/aildnont/covid-cxr) of the method called Local Interpretable Model-Agnostic Explanations (i.e. LIME). You also read [this article](https://towardsdatascience.com/investigation-of-explainable-predictions-of-covid-19-infection-from-chest-x-rays-with-machine-cb370f46af1d) and you get your hands dirty and replicate the results in your colab notebook with GPU enabled kernel:
+1. First you find this [this implementation](https://github.com/aildnont/covid-cxr) of the method called Local Interpretable Model-Agnostic Explanations (i.e. LIME). You also read [this article](https://towardsdatascience.com/investigation-of-explainable-predictions-of-covid-19-infection-from-chest-x-rays-with-machine-cb370f46af1d) and you get your hands dirty and replicate the results:
     - For Part (1) task please refer to the steps listed below with their respective Jupyter Notebook files:
     </br>**_*All Image outputs are presented on their respective Jupyter Notebook files. Please scroll down all the way to the bottom to see the images._**
     </br>**_*We used DCNN RESNET model as specified from the original model.py file [https://github.com/aildnont/covid-cxr/blob/master/src/models/models.py](https://github.com/aildnont/covid-cxr/blob/master/src/models/models.py)_**
