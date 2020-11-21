@@ -10,22 +10,22 @@ They give you [the COVID X-ray / CT Imaging dataset](https://github.com/ieee8023
     
     
         </br>**Step 1: Prepocess**
-        - https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/preprocess.ipynb
+        - https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/Part-1/src/preprocess.ipynb
         
         </br>**Step 2: Train (Did both Class Weights and Random Oversample)**
         - **_Trained model using class weights (Did not perform as well as random oversample):_** 
-       </br>[https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/BAD-SCORE-train-Class-Weights-200-epochs.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/BAD-SCORE-train-Class-Weights-200-epochs.ipynb)
+       </br>[https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/Part-1/src/BAD-SCORE-train-Class-Weights-200-epochs.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/Part-1/src/BAD-SCORE-train-Class-Weights-200-epochs.ipynb)
          - **_Trained model using random oversample (Best performing model):_**
-       </br>[https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/BEST-SCORE-train-random\_oversample-200-epochs-Mon1am-11092020.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/BEST-SCORE-train-random_oversample-200-epochs-Mon1am-11092020.ipynb)
+       </br>[https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/Part-1/src/BEST-SCORE-train-random\_oversample-200-epochs-Mon1am-11092020.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/Part-1/src/BEST-SCORE-train-random_oversample-200-epochs-Mon1am-11092020.ipynb)
        
         </br>**Step 3: Predictions (Used Kaggle Fig1 Covid Images for testing predictions)**
-        - [https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/predict-Kaggle-Fig1-Covid-Images.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/predict-Kaggle-Fig1-Covid-Images.ipynb)
+        - [https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/Part-1/src/predict-Kaggle-Fig1-Covid-Images.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/Part-1/src/predict-Kaggle-Fig1-Covid-Images.ipynb)
         
         </br>**Step 4: Lime Explainer**
-        - [https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/lime\_explain.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/lime_explain.ipynb)
+        - [https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/Part-1/src/lime\_explain.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/Part-1/src/lime_explain.ipynb)
         
         </br>**Step 5: Grad-Cam Explainer**
-        - [https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/gradcam.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/gradcam.ipynb)
+        - [https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/Part-1/src/gradcam.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/Part-1/src/gradcam.ipynb)
         
         
         
@@ -61,7 +61,7 @@ They give you [the COVID X-ray / CT Imaging dataset](https://github.com/ieee8023
 3. After your presentation, your manager is clearly impressed with the depth of the SHAP approach and asks for some results for explaining the COVID-19 diagnoses via it. You notice that the extremely popular [SHAP Github repo](https://github.com/slundberg/shap) already has an example with VGG16 network applied to ImageNet. You think it wont be too difficult to plugin the model you trained in (1) and explain it:
 
     - For Part (3) task our best performing saved model from Part (1) with random oversample was used to run SHAP Gradient Explainer demo.
-    </br>Please refer to [https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/PaulAg-GradientExplainer-Covid-Example-model20201109-115150-h5-Pred-Set.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/PaulAg-GradientExplainer-Covid-Example-model20201109-115150-h5-Pred-Set.ipynb)
+    </br>Please refer to [https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/Part-3/PaulAg-GradientExplainer-Covid-Example-model20201109-115150-h5-Pred-Set.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/PaulAg-GradientExplainer-Covid-Example-model20201109-115150-h5-Pred-Set.ipynb)
     
     - Important packages pip installed on Windows 10 on Anaconda (64bit Latest Download at the time):
       - Python==3.6.9 {reduced from version 3.8}
