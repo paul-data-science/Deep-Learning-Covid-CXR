@@ -8,15 +8,31 @@ They give you [the COVID X-ray / CT Imaging dataset](https://github.com/ieee8023
     </br>**_*All Image outputs are presented on their respective Jupyter Notebook files. Please scroll down all the way to the bottom to see the images._**
     </br>**_*We used DCNN RESNET model as specified from the original model.py file [https://github.com/aildnont/covid-cxr/blob/master/src/models/models.py](https://github.com/aildnont/covid-cxr/blob/master/src/models/models.py)_**
     </br>**_*We finally used our best performing model for all explaination algorithms by setting IMB_STRATEGY: 'random_oversample' in config.yml_**
-        - [https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/gradcam.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/gradcam.ipynb)
-        - [https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/lime\_explain.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/lime_explain.ipynb)
-        - [https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/predict-Kaggle-Fig1-Covid-Images.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/predict-Kaggle-Fig1-Covid-Images.ipynb)
-        - [https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/predict.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/predict.ipynb) _*NOTE: Maybe same as above 'predict-' file_
-        - **_Trained model using random oversampling:_**
-       </br>-[https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/BEST-SCORE-train-random\_oversample-200-epochs-Mon1am-11092020.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/BEST-SCORE-train-random_oversample-200-epochs-Mon1am-11092020.ipynb)
+    
+        </br>**Step 1: Prepocess**
+        - https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/preprocess.ipynb
+        
+        </br>**Step 2: Train (Did both Class Weights and Random Oversample)**
         - **_Trained model using class weights:_** 
        </br>[https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/BAD-SCORE-train-Class-Weights-200-epochs.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/BAD-SCORE-train-Class-Weights-200-epochs.ipynb)
-       - https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/preprocess.ipynb
+         - **_Trained model using random oversampling:_**
+       </br>-[https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/BEST-SCORE-train-random\_oversample-200-epochs-Mon1am-11092020.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/BEST-SCORE-train-random_oversample-200-epochs-Mon1am-11092020.ipynb)
+       
+        </br>**Step 3: Predictions (Used Kaggle Fig1 Covid Images for testing predictions)**
+        - [https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/predict.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/predict.ipynb) _*NOTE: Maybe same as above 'predict-' file_
+        - [https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/predict-Kaggle-Fig1-Covid-Images.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/predict-Kaggle-Fig1-Covid-Images.ipynb)
+        
+        </br>**Step 4: Lime Explainer**
+        - [https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/lime\_explain.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/lime_explain.ipynb)
+        
+        </br>**Step 5: Grad-Cam Explainer**
+        - [https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/gradcam.ipynb](https://github.com/paul-data-science/Deep-Learning-Covid-CXR/blob/main/src/gradcam.ipynb)
+        
+        
+        
+       
+        
+       
        
       </br>**_Note that there were code errors from the original authored train.py:_**
       </br> **Error (1) AttributeError: &#39;list&#39; object has no attribute &#39;keys&#39; Class weights line of code:**
