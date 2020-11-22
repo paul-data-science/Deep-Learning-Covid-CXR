@@ -62,6 +62,7 @@ They give you [the COVID X-ray / CT Imaging dataset](https://github.com/ieee8023
       - Keras_gpu==2.3.1
       - Tensorflow_gpu==2.3.1
       - NOTE: First create separate environment then try &quot;conda install&quot; to install packages on console environment. If &quot;conda install&quot; does not go thru then force the package install using &quot;pip install&quot;.
+    - To replicate this Part (1) yourself, you need to pull from https://github.com/aildnont/covid-cxr and use this README as a guide to successfully run it.
       <br/><br/>
 
 2. A fellow AI engineer, tells you about another method called [SHAP](https://arxiv.org/abs/1705.07874) that stands for SHapley Additive exPlanations and she mentions that Shapley was a Nobel prize winner so it must be important. You then find out that [Google is using it and wrote a readable white paper](https://storage.googleapis.com/cloud-ai-whitepapers/AI%20Explainability%20Whitepaper.pdf) about it and your excitement grows. Your manager sees you on the corridor and mentions that your work is needed soon. You are keen to impress her and start writing your  **3-5 page**  summary of the SHAP approach as can be applied to explaining deep learning classifiers such as the ResNet network used in (1):
@@ -78,3 +79,4 @@ They give you [the COVID X-ray / CT Imaging dataset](https://github.com/ieee8023
       - Keras==2.4.3
       - Tensorflow==2.3.1
       - NOTE: First create separate environment then try &quot;conda install&quot; to install packages on console environment. If &quot;conda install&quot; does not go thru then force the package install using &quot;pip install&quot;.
+    - To replicate this Part (3) yourself, you need to pull from https://github.com/slundberg/shap and use this README as a guide to successfully run it.
